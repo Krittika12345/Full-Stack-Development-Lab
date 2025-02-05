@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>BIO DATA</title>
+</head>
+<body style="background-color:antiquewhite; font-size:20px">
+<h1 style="text-align:center ; background-color: chocolate ;color:antiquewhite"><big>BIO DATA</big><hr></h1>
+<img src="Images%20in%20html/img_3.png" alt="PHOTO" height="250px" width="270px" border="2px" align="right">
+<h3 style="background-color: saddlebrown ; color:antiquewhite" ><i><strong>PERSONAL DETAILS:</strong></i></h3>
+<p><b>NAME:</b>Alex<br></p>
+<p><b>FATHER'S NAME:</b>Stane<br></p>
+<p><b>MOTHER'S NAME:</b>Alina</p>
+<p><b>DATE OF BIRTH:</b> 12/11/2003<br></p>
+<p><b>AGE:</b> 19<br></p>
+<p><b>NATIONALITY:</b>American</p>
+<p><b>HOBBIES:</b> Singing,Drawing<br></p>
+
+<div>
+<h3  style="background-color:saddlebrown ; color:antiquewhite"><i><strong>EDUCATION:</strong></i></h3>
+    <table border="2px" style="width:800px;height:200px;font-size:18px">
+        <tr align="middle">
+            <td>
+
+            </td>
+            <td>
+                <big><b>Board/University</b></big>
+            </td>
+            <td>
+                <big><b>Year of Passing</b></big>
+            </td>
+            <td>
+               <big><b> Percentage Obtained</b></big>
+            </td>
+        </tr>
+        <tr align="middle">
+            <td>
+                Class 10
+            </td>
+            <td>
+                St.Xavier's
+            </td>
+            <td>
+                2020
+            </td>
+            <td>
+                89.4%
+            </td>
+        </tr>
+        <tr align="middle">
+            <td>
+                Class 12
+            </td>
+            <td>
+                St.Xavier's
+            </td>
+            <td>
+                2022
+            </td>
+            <td>
+                80.6%
+            </td>
+        </tr>
+        <tr align="middle">
+            <td>
+                Graduation
+            </td>
+            <td>
+                Cambridge University
+            </td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+        </tr>
+    </table>
+    <p><b>SKILLS:</b> MS Office,C language</p>
+</div>
+<h3 style="background-color: saddlebrown;color:antiquewhite"><i><strong>CONTACT DETAILS:</strong></i></h3>
+<p><b>MOBILE NO.:</b>9383828222</p>
+<p><b>EMAIL:</b>Alex0000@gmail.com</p>
+<p><b>ADDRESS:</b>101 BN George colony</p>
+
+<h4 style="background-color:chocolate ;color:antiquewhite">DECLARATION:</h4>
+<p>I hereby declare that the above mentioned information is correct up to my knowledge<br>
+ and I bear the responsibility for the correctness of the above mentioned particulars.</p>
+
+
+<p><b>DATE:</b>04.02.2025</p>
+<p align="right">Alex</p>
+<p align="right"><b>SIGNATURE</b></p>
+
+
+
+
+</body>
+</html>
