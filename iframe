@@ -1,0 +1,51 @@
+1.Creating Bio data and add website of Adamas University in the footer part
+<html>
+<head>
+    <title>Bio data with a Hyperlink</title>
+</head>
+<body style="font-size: 33px">
+<h1 align="middle" style="background-color: darkseagreen ;font-size:40px">BIO DATA<hr></h1>
+<img src="Images%20in%20html/img_1.png" width="300px" height="300px" border="1px" align="right">
+<p><b>NAME:</b>Alex</p>
+<p><b>PROGRAM:</b> BCA</p>
+<p><b> CURRENT SEMESTER:</b> Second</p>
+<p><b>FAVOURITE PROGRAMMING LANGUAGE:</b> Python</p>
+<p><b>HOBBIES:</b> Singing , Drawing</p>
+<p style="font-size: 40px ;background-color: darkseagreen" align="middle"><b>CONTACT DETAILS</b></p>
+
+<p><b>MOBILE NUMBER:</b> 67437907543</p>
+<p><b>EMAIL:</b> Alex0000@gmail.com</p>
+
+<footer>
+    <a href="https://adamasknowledgecity.ac.in/">CLICK HERE</a>
+</footer>
+</body>
+</html>
+
+
+
+2.In second html document load third document using iframe
+
+<html>
+<head>
+  <title>Load 3.html</title>
+</head>
+<body>
+<h1>Loading 3.html</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.7292526050774!2d88.45403777508287!3d22.738302579374057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+1!3m3!1m2!1s0x39f898ec702e5daf%3A0xfa41b06da8478350!2sAdamas%20University!5e0!3m2!1sen!2sin!4v1738493242832!5m2!1sen!2sin" width="800" height="600"></iframe>
+</body>
+</html>
+
+
+3.In third html document create a hyperlink using target to get the location of Adamas University
+<html>
+<head>
+  <title>Adamas University Location</title>
+</head>
+<body>
+<h1>Adamas University</h1>
+<p>Click the link below to view the location of Adamas University:</p>
+<p><a href="https://maps.app.goo.gl/GD7LnzyowpiePykY8" target="_blank">View Location on Google Maps</a></p>
+</body>
+</html>
