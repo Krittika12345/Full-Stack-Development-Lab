@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Normal Bio data</title>
+</head>
+<body style="font-size: 33px">
+<h1 align="middle" style="background-color: darkseagreen ;font-size:40px">BIO DATA<hr></h1>
+<img src="Images%20in%20html/img_1.png" width="300px" height="300px" border="1px" align="right">
+<p><b>NAME:</b>Alex</p>
+<p><b>PROGRAM:</b> BCA</p>
+<p><b> CURRENT SEMESTER:</b> Second</p>
+<p><b>FAVOURITE PROGRAMMING LANGUAGE:</b> Python</p>
+<p><b>HOBBIES:</b> Singing , Drawing</p>
+<p style="font-size: 40px ;background-color: darkseagreen" align="middle"><b>CONTACT DETAILS</b></p>
+
+<p><b>MOBILE NUMBER:</b> 67437907543</p>
+<p><b>EMAIL:</b> Alex000@gmail.com</p>
+</body>
+</html>
