@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Facebook Login Page</title>
+</head>
+<body style="background-color:#e9ebee">
+<p><h1 style="font-family:Bahnschrift ;font-size:70px ;background-color:#3b5998 ;color:white">
+  <strong>facebook</strong></h1><p/>
+<p align="left" style="color:#3b5998;font-size:40px"><b>Facebook helps you to connect<br> and share with the people in<br> your life<br></b></p>
+<img src="Images%20in%20html/img_4.png" align="left" style="width:800px;height:390px">
+
+<center>
+  <table>
+<form>
+  <tr>
+    <td><input name="username" placeholder="USERNAME" requiredtype="text" ></td><br>
+  </tr>
+  <tr>
+    <td><input name="mobile no or email" placeholder="MOBILE NUMBER" requiredtype="number"></td><br>
+  </tr>
+  <tr>
+  <td><input name="password" placeholder="PASSWORD" requiredtype="password"></td><br>
+  </tr>
+  <tr>
+    <td><a href="#" style="color:#385898">Forgot Password</a><br></td>
+  </tr>
+  <tr>
+    <td><input type="submit" value="LOGIN" style="background-color: #4a700c ; color:whitesmoke"></td>
+  </tr>
+</form>
+  </table>
+  </center>
+<center>
+  <button style="background-color:#65b723; color:#ffffff; border:1px solid black">
+    Create New Account
+  </button>
+</center>
+</body>
+</html>
