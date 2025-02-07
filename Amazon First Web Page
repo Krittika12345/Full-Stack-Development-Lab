@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color:lightgray">
+<img src="Images%20in%20html/img_5.png" alt="Amazon" style="width:250px;height:250px" align="left">
+<table align="center" style="font-family:'Baskerville Old Face';font-size:25px">
+    <tr>
+        <td><h1>Welcome to Amazon.com Books!</h1></td>
+    </tr>
+</table>
+<p align="center" style="font-size:25px;color:blue"><i><b><u>One million titles,<br>consistently low prices.</u></b></i></p>
+<table align="center" style="font-family:'Baskerville Old Face';font-size:20px">
+    <tr>
+        <td>(if you explore just one thing,make it our<a href="#personal notification serivice"> personal notification service.</a>We<br>
+        think its very cool! Also,chcek out<a href="#what our customers are saying about us"> what our customers are saying about us.)</a></td>
+    </tr>
+</table>
+<dl>
+    <dt style="font-family:'Baskerville Old Face';font-size:35px;color:blue"><u><big>S</big>POTLIGHT!--<big>J</big>ANUARY <big>16</big>TH</u></dt>
+    <dd style="font-size:25px">These are books we love,offered at Amazon.com low prices.The spotlight moves <b>EVERY</b> day so please<br>
+    come often</dd>
+
+    <dt style="font-family:'Baskerville Old Face';font-size:35px;color:blue"><u><big>O</big>NE <big>M</big>ILLION <big>T</big>ITLES</u></dt>
+    <dd style="font-size:25px">Search Amazon.com's <a href="#million title catalog"> million title catalog</a> by author,subject,keyword,and more...Or take
+    a look at the <a href="#books we recommend">books we<br>recommend</a> in over 20 catagories...Check out our<a href="#customer reviews">customer reviews</a>
+      and the <a href="#award winners"> award winners</a> from the Hugo and Nebula<br> to the Pulitzer and Nobel...and<a href="#bestsellers"> bestsellers</a>
+    are 30% off the publisher's list...</dd>
+
+    <dt style="font-family:'Baskerville Old Face';font-size:35px;color:blue"><u><big>E</big>YES & <big>E</big>DITORS, A PERSONAL NOTIFICATION SERVICE</u></dt>
+    <dd style="font-size:25px">Like to know when that book you want comes out in paperback or when your favourite author releases a new title?Eyes,<br>
+    our tireless,automated search agent,will send you mail.Meanwhile,our human editors are busy previewing galleys<br>
+    and reading advance reviews.They can let you know when especially wonderful works are published in particular<br>
+    genres or subject areas.Come in,<a href="#meet Eyes,">meet Eyes,</a> and have it all explained.</dd>
+
+    <dt style="font-family:'Baskerville Old Face';font-size:35px;color:blue"><u>YOUR ACCOUNT</u></dt>
+    <dd style="font-size:25px">Check the status of your orders or change the email address and password you have on file with us.Please note that you<br>
+    <b>do not</b> need an account to use the store.The first time you place an order, you will be given the opportunity to create <br> an account</dd>
+
+    <dt style="font-family:'Baskerville Old Face';font-size:35px;color:blue"><u><big>A</big>BOUT <big>A</big>MAZON.COM</u></dt>
+    <dd  style="font-size:25px">Here you can find such information as our everyday discounts(even paperbacks are usually 10% off),
+    our returns policy,<br>and the various ways to reach us,including our toll-free 800 number.If you're curious,you can also find out
+        <a href="#why we're named Amazon.com....">why we're<br>named Amazon.com....</a></dd>
+
+    <dt style="font-family:'Baskerville Old Face';font-size:35px;color:blue"><u><big>E</big>MPLOYMENT <big>O</big>PPORTUNITIES AT AMAZON.COM,<big>I</big>NC.</u></dt>
+    <dd style="font-size:25px">We have senior-level and entry-level openings,both of which include significant incentive stock options as part of the <br>
+    compensation package.If you're interested in the new juxtaposition of retailing and computers,please investigate the<br>opportunities!<hr></dd>
+</dl>
+<p style="font-size:30px;font-family:'Baskerville Old Face'" align="center">[ <a href="#BUY ITEMS NOW">BUY ITEMS NOW|<a href="#VIEW YOUR SHOPPING BASKET">VIEW YOUR SHOPPING BASKET</a>]</a></p>
+<p style="font-size:24px;font-family:'Baskerville Old Face'" align="center">[ Home | <a href="#Browse the Shelves">Browse the Shelves</a>| <a href="#Eyes & Editors">Eyes & Editors</a>| <a href="#Your Account">Your Account</a>|
+<a href="#Email Us">Email Us</a>| <a href="#Help">Help</a>]<hr></p>
+<hr>
+<table>
+    <tr>
+        <td><img src="Images%20in%20html/img_6.png" alt="Image"style="width:200px;height:250px"></td>
+        <td align="left" valign="top" style="font-size:25px"><b><a href="#The Private Lives of Albert Einstein">The Private Lives of Albert Einstein</a></b>
+            by <b><a href="#Roger Highfield">Roger Highfield</a></b> and <b><a href="#Paul Carter">Paul Carter</a></b><br>
+        <p align="left">"A deeply melancholic and moving tale that forces its readers to grapple with the enigma of the Einstein myth."--<br>
+        <i>The Economist</i></p></td>
+    </tr>
+</table>
+<p style="font-size:25px"><b><a href="#More recommended Biographies">More recommended Biographies</a></b><hr></p>
+<p style="font-size:20px"><a href="Copyright">Copyright</a> 1995 Amazon.com,Inc.</p>
+<p style="font-size:20px"><i><a href="#webmaster@amazon.com">webmaster@amazon.com</a></i></p>
+
+
+</body>
+</html>
