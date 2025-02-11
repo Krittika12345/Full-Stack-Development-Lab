@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>
+    Google First WebPage
+  </title>
+</head>
+<body>
+<table align="center">
+  <tr>
+    <td> <img src="Images%20in%20html/img.png" alt="Image" style="width:660px;height:200px"></td>
+  </tr>
+  <tr>
+    <td style="font-size:30px" align="center">Search the web using Google!</td>
+  </tr>
+  <tr>
+    <td align="center"><form>
+      <input type="search" size="80" style="height:40px">
+    </form></td>
+  </tr>
+  <tr>
+    <td align="center"><form>
+      <input type="submit" value="Google Search" style="width:150px;height:30px;font-size:17px">
+      <input type="submit" value="I'm Feeling Lucky" style="width:170px;height:30px;font-size:17px">
+    </form></td>
+  </tr>
+  <tr>
+    <td align="center" style="font-size:30px"><i>Index contains~25 million pages (soon to be much bigger)</i></td>
+  </tr>
+</table>
+<p align="center" style="font-size:40px"><a href="#About Google!">About Google!</a></p>
+<p align="center" style="font-size:25px"><a href="#Stanford Search Linux Search">Stanford Search Linux Search</a></p>
+<table align="center">
+  <tr>
+    <td style="font-size:20px" align="center">Get Google! updates monthly!</td>
+  </tr>
+  <tr>
+    <td><form>
+      <input type="email" placeholder="your e-mail">
+      <input type="submit" value="Subscribe">
+      <a href="#Archive" style="font-size:20px">Archive</a>
+    </form></td>
+  </tr>
+  <tr>
+    <td align="center" style="font-size:20px"><strong>Copyright 1997-8 Stanford University</strong></td>
+  </tr>
+</table>
+
+</body>
+</html>
