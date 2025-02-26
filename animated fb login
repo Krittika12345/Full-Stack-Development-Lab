@@ -1,0 +1,84 @@
+HTML:
+<html>
+<head>
+    <title>FACEBOOK</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <h1 class="animate__animated animate__bounce">facebook</h1>
+    <center>
+<div class="fb-root"><br>
+    <p id="family">Log Into Facebook</p>
+    <form>
+        <input type="email,number" placeholder="Your Email or Phone Here" required>
+    </form>
+    <form>
+        <input type="password" placeholder="Your Password Here" required>
+    </form>
+    <form>
+        <input type="submit" value="Log In" class="button">
+    </form>
+    <p>Forgot account?</p>
+    <p id="or">-------------------or----------------------</p>
+    <form>
+        <button class="account">Create New Account</button>
+    </form>
+
+</div>
+        </center>
+</body>
+</html>
+
+
+
+CSS:
+h1{text-align:center;
+font-family: Arial;
+font-size:70px;
+    color:blue;}
+
+body{background-color:whitesmoke;}
+
+.fb-root{box-shadow:2px 2px 5px darkgrey;
+    width:500px;
+    height:500px;
+    background-color:white;
+    font-size:25px;}
+
+#family{font-family:Arial;
+color:black;}
+
+input{width:400px;
+height:60px;
+border-radius:5px;
+border-color: lightgrey;
+    font-size:18px;
+}
+
+.button{background-color:blue;
+    color:white;
+font-size:20px;
+text-weight:bold;
+border-color: blue;}
+
+p{text-align:center;
+color:blue;
+font-family:Arial;
+font-size:20px;
+text-weight:bold;}
+
+#or{color:lightcoral;}
+
+.account{background-color:green;
+color:white;
+font-size:18px;
+width:300px;
+height:50px;
+border-radius:3px;
+border-color:green;}
+
+.animate__animated.animate__bounce 
+{
+    --animate-duration: 2s;
+}
