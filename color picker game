@@ -1,0 +1,155 @@
+HTML:
+<html lang="en">
+<head>
+    <title>Color Picker Game</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Color Picker Game</h1>
+        <h1 id="colorDisplay">RGB(255,255,255)</h1>
+    </div>
+    <div class="section">
+        <button class="btn" id="resetButton">New Colors</button>
+        <button class="btn" id="resultButton">Result</button>
+    </div>
+    <div class="footer">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const squares = document.querySelectorAll(".square");
+        const colorDisplay = document.getElementById("colorDisplay");
+        const resetButton = document.getElementById("resetButton");
+        const resultButton = document.getElementById("resultButton");
+        let colors = [];
+        let pickedColor;
+
+        // Initialize the game
+        resetGame();
+
+        // Event listener for reset button
+        resetButton.addEventListener("click", resetGame);
+
+        // Event listeners for squares
+        squares.forEach((square, index) => {
+            square.addEventListener("click", function () {
+                if (colors[index] === pickedColor) {
+                    alert("Correct! Well done!");
+                    resetGame();
+                } else {
+                    alert("Wrong! Try again.");
+                    this.style.backgroundColor = "#000"; // Hide the wrong color
+                }
+            });
+        });
+
+        // Function to reset the game
+        function resetGame() {
+            colors = generateColors();
+            pickedColor = pickColor();
+            colorDisplay.innerText = pickedColor;
+            assignColors();
+        }
+
+        // Function to generate random colors
+        function generateColors() {
+            const colorArray = [];
+            for (let i = 0; i < squares.length; i++) {
+                colorArray.push(
+                    `rgb(${Math.floor(Math.random() * 256)},
+                     ${Math.floor(Math.random() * 256)},
+                     ${Math.floor(Math.random() * 256)})`
+                );
+            }
+            return colorArray;
+        }
+
+        // Function to pick a random color from the generated colors
+        function pickColor() {
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        // Function to assign colors to squares
+        function assignColors() {
+            squares.forEach((square, index) => {
+                square.style.backgroundColor = colors[index];
+            });
+        }
+    });
+</script>
+</body>
+</html>
+
+
+
+
+
+CSS:
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color:#fff;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.header{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:blue;
+    padding:2px;
+}
+.header h1{
+    font-size:20px;
+    font-family: sans-serif;
+
+}
+.section{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    background-color:#fff;
+    padding:10px;
+}
+.section .btn{
+    padding:10px;
+    background-color:slateblue;
+    border:none;
+    outline:none;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:23px;
+    border-radius:5px;
+}
+.footer{
+    width:100%;
+     display:grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    gap:20px;
+}
+.footer .square{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+}
